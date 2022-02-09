@@ -12,6 +12,12 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
 import Sample from '@/components/Sample.vue'
+import { defineComponent } from 'vue'
+export default defineComponent({
+  components: {
+    Sample
+  }
+})
 </script>

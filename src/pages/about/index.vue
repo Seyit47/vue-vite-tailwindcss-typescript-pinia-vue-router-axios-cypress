@@ -8,11 +8,19 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
 import { useStore } from '@/store'
-import { toRefs } from 'vue'
+import { defineComponent, toRefs } from 'vue'
 
-const countStore = useStore()
+export default defineComponent({
+  setup() {
+    const countStore = useStore()
 
-const { count, increment } = toRefs(countStore)
+    const { count, increment } = toRefs(countStore)
+    return {
+      count,
+      increment
+    }
+  }
+})
 </script>

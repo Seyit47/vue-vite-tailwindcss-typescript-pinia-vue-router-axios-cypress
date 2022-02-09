@@ -4,16 +4,18 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import type { PropType } from 'vue'
-defineProps({
-  msg: {
-    type: String as PropType<string>,
-    required: true
-  },
-  color: {
-    type: String as PropType<string>,
-    default: ''
+<script lang="ts">
+import { defineComponent, type PropType } from 'vue'
+export default defineComponent({
+  props: {
+    msg: {
+      type: String as PropType<string>,
+      required: true
+    },
+    color: {
+      type: String as PropType<string>,
+      default: ''
+    }
   }
 })
 </script>
