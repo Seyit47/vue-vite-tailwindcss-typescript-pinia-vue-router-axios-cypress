@@ -1,7 +1,7 @@
 {
-  "baseUrl": "http://localhost:5050",
+  "baseUrl": "http://localhost:7000",
   "component": {
     "componentFolder": "src",
-    "testFiles": "**/__tests__/*.spec.{js,ts,jsx,tsx}"
+    "testFiles": "**/components/*.spec.{js,ts,jsx,tsx}"
   }
 }
