@@ -17,36 +17,40 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Project Setup
 
 ```sh
-npm install
+npm install or yarn
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+npm run dev or yarn dev
 ```
 
 ### Type-Check, Compile and Minify for Production
 
 ```sh
-npm run build
+npm run build or yarn build
 ```
 
 ### Run Unit Tests with [Cypress Component Testing](https://docs.cypress.io/guides/component-testing/introduction)
 
 ```sh
 npm run test:unit # or `npm run test:unit:ci` for headless testing
+yarn test:unit # or `yarn test:unit:ci` for headless testing
 ```
 
 ### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
 
 ```sh
 npm run build
+yarn build
 npm run test:e2e # or `npm run test:e2e:ci` for headless testing
+yarn test:e2e # or `yarn test:e2e:ci` for headless testing
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
+yarn lint
 ```
