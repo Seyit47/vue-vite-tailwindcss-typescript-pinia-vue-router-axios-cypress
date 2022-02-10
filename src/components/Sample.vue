@@ -11,10 +11,6 @@ export default defineComponent({
     msg: {
       type: String as PropType<string>,
       required: true
-    },
-    color: {
-      type: String as PropType<string>,
-      default: ''
     }
   }
 })
