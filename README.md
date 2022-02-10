@@ -1,4 +1,4 @@
-# Vue 3 + Typescript + Vite + ESLint + Prettier + Tailwind CSS + Pinia + Vue-Router + Axios
+# Vue 3 + Typescript + Vite + ESLint + Prettier + Tailwind CSS + Pinia + Vue-Router + Axios + Cypress
 
 This template should help get you started developing with Vue 3 in Vite.
 
