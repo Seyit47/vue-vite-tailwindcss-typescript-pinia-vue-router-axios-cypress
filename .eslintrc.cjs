@@ -12,12 +12,14 @@ module.exports = {
   ],
   env: {
     browser: true,
-    module: true,
+    amd: true,
+    node: true,
     es2021: true,
     'vue/setup-compiler-macros': true
   },
   parserOptions: {
-    ecmaVersion: 2021
+    ecmaVersion: 6,
+    sourceType: 'module'
   },
   overrides: [
     {
@@ -32,6 +34,7 @@ module.exports = {
   rules: {
     'no-console': 'warn',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    'vue/multi-word-component-names': 'off'
+    'vue/multi-word-component-names': 'off',
+    '@typescript-eslint/no-var-requires': 0
   }
 }

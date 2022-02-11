@@ -2,8 +2,8 @@
   <div class="flex justify-center">
     <h2 class="text-xl">This is about page</h2>
   </div>
-  <div class="justify-center flex p-4">
-    <button class="border w-16" @click="increment">Click</button>
+  <div class="flex justify-center p-4">
+    <button class="w-16 border" @click="increment">Click</button>
     <h2>This is Pinia Store Counter {{ count }}</h2>
   </div>
 </template>

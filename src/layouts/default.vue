@@ -1,15 +1,15 @@
 <template>
-  <div class="w-full justify-center">
-    <div class="p-6 justify-center flex items-center text-2xl">
+  <div class="justify-center w-full">
+    <div class="flex justify-center items-center p-6 text-2xl">
       <RouterLink
-        class="cursor-pointer hover:text-green mr-2"
+        class="mr-2 hover:text-green-600 transition ease-in cursor-pointer"
         :to="{ path: '/' }"
       >
         Home
       </RouterLink>
       |
       <RouterLink
-        class="cursor-pointer hover:text-green ml-2"
+        class="ml-2 hover:text-green-600 transition ease-in cursor-pointer"
         :to="{ path: '/about' }"
       >
         About

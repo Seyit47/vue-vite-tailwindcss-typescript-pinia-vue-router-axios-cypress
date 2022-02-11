@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex justify-center items-center text-xl">
+  <div class="flex justify-center items-center w-full text-xl">
     <h2>Welcome to \</h2>
     <Sample class="text-blue-400" msg="Tailwind +" />
     <Sample class="text-green-400" msg="Vue +" />

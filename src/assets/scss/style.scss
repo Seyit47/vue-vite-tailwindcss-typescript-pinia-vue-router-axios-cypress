@@ -1,22 +1,22 @@
-@import "base/typography";
-@import "base/variables";
+@import 'base/typography';
+@import 'base/variables';
 
 .m-outline-white {
-    outline: 1px solid #fff;
+  outline: 1px solid #fff;
 }
 .m-outline-black {
-    outline: 1px solid #000;
+  outline: 1px solid #000;
 }
 
 html {
-    font-family: "Faktum", Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    width: 100vw;
-    overflow-x: hidden;
+  font-family: 'Faktum', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
