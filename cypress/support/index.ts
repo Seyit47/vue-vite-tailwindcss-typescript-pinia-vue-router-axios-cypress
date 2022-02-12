@@ -18,3 +18,16 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+before(() => {
+  cy.exec('npx tailwindcss -i ./src/assets/css/tailwind.css -m').then(
+    ({ stdout }) => {
+      if (!document.head.querySelector('#tailwind-style')) {
+        const link = document.createElement('style')
+        link.id = 'tailwind-style'
+        link.innerHTML = stdout
+
+        document.head.appendChild(link)
+      }
+    }
+  )
+})

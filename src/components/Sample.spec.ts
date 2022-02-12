@@ -10,7 +10,4 @@ describe('test component', () => {
     })
     cy.contains('Salam')
   })
-  it('it should not mount component', () => {
-    mount(Sample)
-  })
 })
